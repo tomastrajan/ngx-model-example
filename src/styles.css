@@ -18,8 +18,13 @@ a:hover {
   color: #c23fb1;
 }
 
+input {
+  font-size: 1.2em;
+  padding: 5px 10px;
+}
+
 code {
   padding: 3px 5px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #eee;
 }

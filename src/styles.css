@@ -1,0 +1,25 @@
+:root {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+body {
+  padding: 20px;
+}
+
+a {
+  color: #e84bd4;
+  text-decoration: none;
+  border-bottom: 3px solid;
+}
+
+a:hover {
+  color: #c23fb1;
+}
+
+code {
+  padding: 3px 5px;
+  border-radius: 3px;
+  background-color: #eee;
+}

@@ -22,7 +22,7 @@ import { Model, ModelFactory } from 'ngx-model';
       <h2>Example</h2>
       <div>
         <input type="text" (keyup)="setName($event.target.value)" [value]="(person$ | async).name">
-        <p>Hello, {{(person$ | async).name}}! </p>
+        <p class="name">Hello, {{(person$ | async).name}}! </p>
       </div>
     </div>
   `,

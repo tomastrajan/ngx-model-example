@@ -5,7 +5,19 @@ export class AppPage {
     return browser.get('/');
   }
 
-  getParagraphText() {
+  getMainText() {
     return element(by.css('nme-root h1')).getText();
+  }
+
+  getParagraphText() {
+    return element(by.css('nme-root p')).getText();
+  }
+
+  getNameInput() {
+    return element(by.css('nme-root input'));
+  }
+
+  getNameText() {
+    return element(by.css('nme-root .name')).getText();
   }
 }
